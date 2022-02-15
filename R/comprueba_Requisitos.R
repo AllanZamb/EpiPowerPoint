@@ -33,19 +33,19 @@ comprueba_Requisitos <- function(){
 
   #COMPROBAMOS PLANTILLAS ####
   if(!file.exists("bin/pptx/Plantilla_2022.pptx")){
-    download.file("https://github.com/AllanZamb/EpiPowerPoint/blob/main/bin/pptx/Plantilla_2022.pptx", "bin/pptx/Plantilla_2022.pptx", mode = "wb")
+    download.file("https://github.com/AllanZamb/EpiPowerPoint/raw/main/bin/pptx/Plantilla_2022.pptx", "bin/pptx/Plantilla_2022.pptx", mode = "wb")
   }else{
     print("Ya tenemos la plantilla")
   }
 
   if(!file.exists("bin/font/Montserrat-Bold.ttf")){
-    download.file("https://github.com/AllanZamb/EpiPowerPoint/blob/main/bin/font/Montserrat-Bold.ttf", "bin/pptx/Plantilla_2022.pptx", mode = "wb")
+    download.file("https://github.com/AllanZamb/EpiPowerPoint/raw/main/bin/font/Montserrat-Bold.ttf", "bin/pptx/Plantilla_2022.pptx", mode = "wb")
   }else{
     print("Ya tenemos la la tipografia")
   }
 
   if(!file.exists("bin/font/Montserrat-Regular.ttf")){
-    download.file("https://github.com/AllanZamb/EpiPowerPoint/blob/main/bin/font/Montserrat-Regular.ttf", "bin/pptx/Plantilla_2022.pptx", mode = "wb")
+    download.file("https://github.com/AllanZamb/EpiPowerPoint/raw/main/bin/font/Montserrat-Regular.ttf", "bin/pptx/Plantilla_2022.pptx", mode = "wb")
   }else{
     print("Ya tenemos la la tipografia")
   }
