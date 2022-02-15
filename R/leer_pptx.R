@@ -14,7 +14,7 @@ leer_pptx <- function(direccion = "bin/pptx/Plantilla_2022.pptx"){
 
 
   #Colocamos los posibles tipos de letra
-  .GlobalEnv$texto_normal <- fp_text(font.size = 20,
+  .GlobalEnv$fuente_normal <- fp_text(font.size = 20,
                                      bold = F,
                                      color = "white",
                                      font.family = "Montserrat" )
