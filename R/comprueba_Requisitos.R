@@ -39,13 +39,13 @@ comprueba_Requisitos <- function(){
   }
 
   if(!file.exists("bin/font/Montserrat-Bold.ttf")){
-    download.file("https://github.com/AllanZamb/EpiPowerPoint/raw/main/bin/font/Montserrat-Bold.ttf", "bin/pptx/Plantilla_2022.pptx", mode = "wb")
+    download.file("https://github.com/AllanZamb/EpiPowerPoint/raw/main/bin/font/Montserrat-Bold.ttf", "bin/font/Montserrat-Bold.ttf", mode = "wb")
   }else{
     print("Ya tenemos la la tipografia")
   }
 
   if(!file.exists("bin/font/Montserrat-Regular.ttf")){
-    download.file("https://github.com/AllanZamb/EpiPowerPoint/raw/main/bin/font/Montserrat-Regular.ttf", "bin/pptx/Plantilla_2022.pptx", mode = "wb")
+    download.file("https://github.com/AllanZamb/EpiPowerPoint/raw/main/bin/font/Montserrat-Regular.ttf", "bin/font/Montserrat-Regular.ttf", mode = "wb")
   }else{
     print("Ya tenemos la la tipografia")
   }
