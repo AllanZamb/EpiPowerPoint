@@ -1,5 +1,5 @@
 #Instalamos el paquete EpiPowerPoint V1
-devtools::install_github("AllanZamb/EpiPowerPoint")
+#devtools::install_github("AllanZamb/EpiPowerPoint")
 
 #Cargamos las librerías a utilizar
 library(EpiPowerPoint)
