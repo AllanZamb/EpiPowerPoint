@@ -18,6 +18,9 @@ grafico <- ggplot(mtcars, aes(x=as.factor(cyl) )) +
 #Al cargar esta función automaticamente se cargan las fuentes y de alineación
 Mi_diapositiva <-leer_pptx()
 
+
+
+
 #A continuación le incrustamos los elementos que vamos a necesitar
 leer_pptx()  %>%
 
@@ -94,9 +97,23 @@ for (i in 1:length(entidades)) {
 
 }
 #Cuando termina el ciclo se almacena en un objeto llamado Mi_diapositiva
+print(Mi_diapositiva, target = "test.pptx")
 
 
-  print(Mi_diapositiva, target = "test.pptx")
+fuente_titulo<-fuente_titulo_general(font.size = 70, bold = T, color = "red", font.family = "Montserrat")
+
+fuente_titulo_general <- function(font.size = 70,
+                                  bold = T,
+                                  color = "#E7DAC1",
+                                  font.family = "Montserrat"){
+  fp_text(font.size = font.size,
+          bold = bold,
+          color = color,
+          font.family = font.family)
+}
+
+
+
 
 
 
